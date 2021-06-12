@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GheywyR9mieTI4ibi/x5PLowyyX+bvdXnKyLMuhkENGuRxkITLvDnDcfXYBSHDSLwOvElAoi4Vd2TVpcIV3G6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking\\PMR_Parking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

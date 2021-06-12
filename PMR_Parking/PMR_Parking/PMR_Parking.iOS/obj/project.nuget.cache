@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wQrrPmWU5Eo5LfnWcCRziYl86py7aYVZFvyUOqakL5r/ny57HZC8EfAzBWRUEcChrRfVkhq7f/VtQmJQZp8gVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.iOS\\PMR_Parking.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.auth\\1.7.0\\xamarin.auth.1.7.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
