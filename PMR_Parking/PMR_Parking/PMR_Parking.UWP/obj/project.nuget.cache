@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Eo+oAVd/AohGPqAbs/ACoNiBWopSDGyjuli9xQEHOchjc9grcS6Vrm4VHK9Mad1IQsDytuiICoto3WgL+xUPJw==",
+  "dgSpecHash": "82qKPXc/UgiFS3/2M7GsHtngvp9ZjbnfB2IEhMzJVtPviN/yHBbXV+CRtwSKMV32RFA/aCQMMGIg9kuENHk5BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.UWP\\PMR_Parking.UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\firebaseauthentication.net\\3.7.1\\firebaseauthentication.net.3.7.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.ui.xaml\\2.4.3\\microsoft.ui.xaml.2.4.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.10-rel-29722-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",

@@ -5,7 +5,7 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.pmr_parking" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.pmr_parking" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -17,10 +17,10 @@
   <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="PMR_Parking.Android" android:theme="@style/MainTheme">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/iconpmr" android:label="PMR Parking" android:theme="@style/MainTheme">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
-    <activity android:name="crc6483f00b84f1e0db8f.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="PMR_Parking" android:theme="@style/MainTheme" />
-    <activity android:name="crc6483f00b84f1e0db8f.SplashActivity" android:label="SplashActivity" android:noHistory="true" android:theme="@style/MyTheme.Splash">
+    <activity android:name="crc6483f00b84f1e0db8f.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="PMR Parking" android:theme="@style/MainTheme" />
+    <activity android:name="crc6483f00b84f1e0db8f.SplashActivity" android:label="PMR Parking" android:noHistory="true" android:theme="@style/MyTheme.Splash">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

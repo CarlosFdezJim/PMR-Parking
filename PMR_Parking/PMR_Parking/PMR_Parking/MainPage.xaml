@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:PMR_Parking"
              x:Class="PMR_Parking.MainPage">
 
+    <!--Añadimos la cabecera del menú lateral-->
     <Shell.FlyoutHeader>
         <local:HeaderContentView/>
     </Shell.FlyoutHeader>
@@ -13,11 +14,10 @@
                 FlyoutDisplayOptions="AsMultipleItems">
             <ShellContent Title="Plazas disponibles" Icon="icons8_parking.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Page1}"/>
             <ShellContent Title="Tarjeta PMR" Icon="icons8_card_security.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Page2}"/>
-
+            
     </FlyoutItem>
 
-    <ShellContent Title="About" Icon="icons8_ambulance.png" ContentTemplate="{DataTemplate local:Page1}"/>
-
+    <ShellContent Title="Salir" Icon="icons8_police.png" ContentTemplate="{DataTemplate local:Policia}"/>
 
 </Shell>
     

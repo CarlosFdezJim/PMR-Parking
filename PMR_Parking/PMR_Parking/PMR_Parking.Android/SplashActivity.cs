@@ -11,13 +11,13 @@ using System.Text;
 
 namespace PMR_Parking.Droid
 {
-    [Activity(Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true, Label = "SplashActivity")]
+    [Activity(Theme = "@style/MyTheme.Splash", MainLauncher = true, NoHistory = true, Label = "PMR Parking")]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            System.Threading.Thread.Sleep(600);
+            System.Threading.Thread.Sleep(1800);
             StartActivity(typeof(MainActivity));
 
             // Create your application here

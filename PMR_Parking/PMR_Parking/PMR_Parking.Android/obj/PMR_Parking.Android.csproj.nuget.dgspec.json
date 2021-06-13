@@ -44,6 +44,10 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
             "Xam.Plugin.Geolocator": {
               "target": "Package",
               "version": "[4.5.0.6, )"
@@ -114,11 +118,19 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "Xam.Plugin.Geolocator": {
               "target": "Package",

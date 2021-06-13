@@ -12,7 +12,7 @@ namespace PMR_Parking
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage()); //Login
         }
 
         protected override void OnStart()

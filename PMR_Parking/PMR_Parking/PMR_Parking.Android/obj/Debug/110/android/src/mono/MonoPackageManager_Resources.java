@@ -3,7 +3,9 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "PMR_Parking.Android.dll" comes first in this list. */
 		"PMR_Parking.Android.dll",
+		"Firebase.Auth.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.dll",
 		"Plugin.Permissions.dll",

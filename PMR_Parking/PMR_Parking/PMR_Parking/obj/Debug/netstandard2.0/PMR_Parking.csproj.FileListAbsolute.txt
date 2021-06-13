@@ -6,11 +6,13 @@ C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netsta
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Detail.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\HeaderContentView.xaml.g.cs
+C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Inicio.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Login.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Master.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Page1.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\Policia.xaml.g.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\PMR_Parking.AssemblyInfoInputs.cache
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\PMR_Parking.AssemblyInfo.cs
 C:\Users\carlo\source\repos\PMR_Parking\PMR_Parking\PMR_Parking\obj\Debug\netstandard2.0\PMR_Parking.csproj.CoreCompileInputs.cache
