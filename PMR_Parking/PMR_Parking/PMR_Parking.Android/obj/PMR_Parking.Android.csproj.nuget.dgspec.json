@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[3.7.1, )"
             },
-            "Xam.Plugin.Geolocator": {
-              "target": "Package",
-              "version": "[4.5.0.6, )"
-            },
             "Xamarin.Android.Support.Annotations": {
               "target": "Package",
               "version": "[28.0.0.3, )"
@@ -67,6 +63,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.3.0, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
@@ -132,10 +132,6 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
-            "Xam.Plugin.Geolocator": {
-              "target": "Package",
-              "version": "[4.5.0.6, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -143,6 +139,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.3.0, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",

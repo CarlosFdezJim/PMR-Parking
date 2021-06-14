@@ -91,15 +91,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
-        "type": "package",
-        "compile": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "compile": {
@@ -557,18 +548,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
-        },
-        "compile": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -579,6 +558,12 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
         }
       },
       "Xamarin.Essentials/1.6.1": {
@@ -721,6 +706,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Google.iOS.Maps": "3.5.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -735,15 +734,33 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
         }
       },
+      "Xamarin.Google.iOS.Maps/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
+        }
+      },
       "PMR_Parking/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -844,15 +861,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
-        "type": "package",
-        "compile": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "compile": {
@@ -1246,18 +1254,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
-        },
-        "compile": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1268,6 +1264,12 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
         }
       },
       "Xamarin.Essentials/1.6.1": {
@@ -1410,6 +1412,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Google.iOS.Maps": "3.5.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -1424,15 +1440,33 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
         }
       },
+      "Xamarin.Google.iOS.Maps/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
+        }
+      },
       "PMR_Parking/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -1533,15 +1567,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
-        "type": "package",
-        "compile": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "compile": {
@@ -1935,18 +1960,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
-        },
-        "compile": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1957,6 +1970,12 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
         }
       },
       "Xamarin.Essentials/1.6.1": {
@@ -2099,6 +2118,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Google.iOS.Maps": "3.5.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -2113,15 +2146,33 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
         }
       },
+      "Xamarin.Google.iOS.Maps/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
+        }
+      },
       "PMR_Parking/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -2222,15 +2273,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Permissions/3.0.0.12": {
-        "type": "package",
-        "compile": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Permissions.dll": {}
-        }
-      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "compile": {
@@ -2624,18 +2666,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Plugin.Permissions": "3.0.0.12"
-        },
-        "compile": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -2646,6 +2676,12 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
+      "Xamarin.Build.Download/0.4.11": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
         }
       },
       "Xamarin.Essentials/1.6.1": {
@@ -2788,6 +2824,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Google.iOS.Maps": "3.5.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -2802,15 +2852,33 @@
           "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
         }
       },
+      "Xamarin.Google.iOS.Maps/3.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.4.11"
+        },
+        "frameworkAssemblies": [
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Google.Maps.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Google.iOS.Maps.targets": {}
+        }
+      },
       "PMR_Parking/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -2926,29 +2994,6 @@
         "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "Plugin.Permissions/3.0.0.12": {
-      "sha512": "VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
-      "type": "package",
-      "path": "plugin.permissions/3.0.0.12",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid71/Plugin.Permissions.dll",
-        "lib/monoandroid71/Plugin.Permissions.xml",
-        "lib/netstandard1.0/Plugin.Permissions.dll",
-        "lib/netstandard1.0/Plugin.Permissions.xml",
-        "lib/netstandard2.0/Plugin.Permissions.dll",
-        "lib/netstandard2.0/Plugin.Permissions.xml",
-        "lib/uap10.0.10240/Plugin.Permissions.dll",
-        "lib/uap10.0.10240/Plugin.Permissions.pri",
-        "lib/uap10.0.10240/Plugin.Permissions.xml",
-        "lib/xamarinios10/Plugin.Permissions.dll",
-        "lib/xamarinios10/Plugin.Permissions.xml",
-        "plugin.permissions.3.0.0.12.nupkg.sha512",
-        "plugin.permissions.nuspec",
-        "readme.txt"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -5612,33 +5657,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Xam.Plugin.Geolocator/4.5.0.6": {
-      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
-      "type": "package",
-      "path": "xam.plugin.geolocator/4.5.0.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid71/Plugin.Geolocator.dll",
-        "lib/monoandroid71/Plugin.Geolocator.xml",
-        "lib/netstandard1.0/Plugin.Geolocator.dll",
-        "lib/netstandard1.0/Plugin.Geolocator.xml",
-        "lib/netstandard2.0/Plugin.Geolocator.dll",
-        "lib/netstandard2.0/Plugin.Geolocator.xml",
-        "lib/uap10.0.10240/Plugin.Geolocator.dll",
-        "lib/uap10.0.10240/Plugin.Geolocator.pri",
-        "lib/uap10.0.10240/Plugin.Geolocator.xml",
-        "lib/xamarinios10/Plugin.Geolocator.dll",
-        "lib/xamarinios10/Plugin.Geolocator.xml",
-        "lib/xamarinmac20/Plugin.Geolocator.dll",
-        "lib/xamarinmac20/Plugin.Geolocator.xml",
-        "lib/xamarintvos10/Plugin.Geolocator.dll",
-        "lib/xamarintvos10/Plugin.Geolocator.xml",
-        "readme.txt",
-        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
-        "xam.plugin.geolocator.nuspec"
-      ]
-    },
     "Xamarin.Auth/1.7.0": {
       "sha512": "F5yMDdHmcBRochGOeeyIRJ2fangsCEodSbOwg4TQT5kJnsT/CjP6ieXbFfFF9ccni66EgbQ7NTTjvajUlD3IGQ==",
       "type": "package",
@@ -5661,6 +5679,24 @@
         "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
         "xamarin.auth.1.7.0.nupkg.sha512",
         "xamarin.auth.nuspec"
+      ]
+    },
+    "Xamarin.Build.Download/0.4.11": {
+      "sha512": "svGAoBnMVQwUbIv1+j7vDypY+2R7jruefJRmVsxhuvSFXMP8dV+yZK3UGuZa3zV5ThKimk9eqHuvRcl/JVipbA==",
+      "type": "package",
+      "path": "xamarin.build.download/0.4.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.4.11.nupkg.sha512",
+        "xamarin.build.download.nuspec"
       ]
     },
     "Xamarin.Essentials/1.6.1": {
@@ -5930,6 +5966,26 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.GoogleMaps/3.3.0": {
+      "sha512": "C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
+      ]
+    },
     "Xamarin.Forms.Maps/5.0.0.2012": {
       "sha512": "Zq1mv6sybHzQYWcOYOuLDV1LWQiioGN6kmleau7frhkVLf68FSXd/GIq4uA92TIOYMW9MxmZKOSBW8VVPis5pQ==",
       "type": "package",
@@ -5964,6 +6020,19 @@
         "xamarin.forms.maps.nuspec"
       ]
     },
+    "Xamarin.Google.iOS.Maps/3.5.0": {
+      "sha512": "aQnxCVYDwW4e7z+14CnQmxag05XRULfmfg4t+6IlsZN/nEmYHcyiX1DqWHhdQF/prJsKU0dFeRNyB7tL/g00Qw==",
+      "type": "package",
+      "path": "xamarin.google.ios.maps/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Xamarin.Google.iOS.Maps.targets",
+        "lib/xamarinios10/Google.Maps.dll",
+        "xamarin.google.ios.maps.3.5.0.nupkg.sha512",
+        "xamarin.google.ios.maps.nuspec"
+      ]
+    },
     "PMR_Parking/1.0.0": {
       "type": "project",
       "path": "../PMR_Parking/PMR_Parking.csproj",
@@ -5974,10 +6043,10 @@
     "Xamarin.iOS,Version=v1.0": [
       "FirebaseAuthentication.net >= 3.7.1",
       "PMR_Parking >= 1.0.0",
-      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.Auth >= 1.7.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Forms.GoogleMaps >= 3.3.0",
       "Xamarin.Forms.Maps >= 5.0.0.2012"
     ]
   },
@@ -6030,10 +6099,6 @@
             "target": "Package",
             "version": "[3.7.1, )"
           },
-          "Xam.Plugin.Geolocator": {
-            "target": "Package",
-            "version": "[4.5.0.6, )"
-          },
           "Xamarin.Auth": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -6045,6 +6110,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms.GoogleMaps": {
+            "target": "Package",
+            "version": "[3.3.0, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",

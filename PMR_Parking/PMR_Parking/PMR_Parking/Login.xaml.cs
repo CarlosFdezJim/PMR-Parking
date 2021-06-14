@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Newtonsoft.Json;
-using PMR_Parking.Modelo;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -23,6 +22,12 @@ namespace PMR_Parking
             InitializeComponent();
         }
 
+        /**
+         * @brief Método que se encarga de comprobar si el email y la contraseña del cliente corresponden con la que tenemos en la base de datos.
+         * @param object sender
+         * @param EventArgs e
+         * @author Carlos Fdez
+         */
         private async void Button_Login(object sender, EventArgs e)
         {
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIKey));
@@ -34,7 +39,7 @@ namespace PMR_Parking
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
                 try
                 {
-                    await Navigation.PushAsync(new MainPage());
+                    await Navigation.PushAsync(new home());
                 }
                 catch (Exception)
                 {
@@ -47,18 +52,37 @@ namespace PMR_Parking
             }
         }
 
+        /**
+         * @brief Método que se encarga de crear una cuenta en la base de datos con el email y la contraseña del cliente nos ha proporcionado,
+         *      en caso de que no exista la creará, sino mostrará un mensaje por pantalla
+         * @param object sender
+         * @param EventArgs e
+         * @author Carlos Fdez
+         */
         private async void Button_Register(object sender, EventArgs e)
+        {
+            //try
+            //{
+            //    var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIKey));
+            //    var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(txtEmail.Text, txtPassword.Text);
+            //    string gettoken = auth.FirebaseToken;
+            //    await App.Current.MainPage.DisplayAlert("Alert", "Registro completado", "Ok");
+            //}
+            //catch (Exception ex)
+            //{
+            //    await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+            //}
+        }
+
+        private async void btnRegister_Clicked(object sender, EventArgs e)
         {
             try
             {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIKey));
-                var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(txtEmail.Text, txtPassword.Text);
-                string gettoken = auth.FirebaseToken;
-                await App.Current.MainPage.DisplayAlert("Alert", "Registro completado", "Ok");
+                await Navigation.PushAsync(new Logout());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+                await App.Current.MainPage.DisplayAlert("Alert", "No se ha podido redireccionar", "OK");
             }
         }
     }

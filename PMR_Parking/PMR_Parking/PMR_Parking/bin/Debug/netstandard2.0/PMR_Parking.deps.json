@@ -12,9 +12,9 @@
           "FirebaseAuthentication.net": "3.7.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "runtime": {
@@ -55,14 +55,6 @@
           }
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "runtime": {
-          "lib/netstandard2.0/Plugin.Geolocator.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Xamarin.Essentials/1.6.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -87,6 +79,17 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "5.0.0.671"
+          }
+        }
+      },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
           }
         }
       },
@@ -144,13 +147,6 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "Xam.Plugin.Geolocator/4.5.0.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
-      "path": "xam.plugin.geolocator/4.5.0.6",
-      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
-    },
     "Xamarin.Essentials/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -164,6 +160,13 @@
       "sha512": "sha512-Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "path": "xamarin.forms/5.0.0.2012",
       "hashPath": "xamarin.forms.5.0.0.2012.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
+      "path": "xamarin.forms.googlemaps/3.3.0",
+      "hashPath": "xamarin.forms.googlemaps.3.3.0.nupkg.sha512"
     },
     "Xamarin.Forms.Maps/5.0.0.2012": {
       "type": "package",

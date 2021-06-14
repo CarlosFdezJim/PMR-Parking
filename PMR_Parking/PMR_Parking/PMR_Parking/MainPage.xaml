@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:PMR_Parking"
-             x:Class="PMR_Parking.MainPage">
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       xmlns:local="clr-namespace:PMR_Parking"
+       x:Class="PMR_Parking.MainPage">
 
     <!--Añadimos la cabecera del menú lateral-->
     <Shell.FlyoutHeader>

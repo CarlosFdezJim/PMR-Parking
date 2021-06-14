@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZcbBAzJRckAvmFTd78g08qpEclT0BK3YVZx81gV8FfQzBhN7VoTu2+nCjpyIF0AEov37gnM1vp77HpJcVKg4gQ==",
+  "dgSpecHash": "snl/LyqHY9kWf3EFevWqZLPvhuO2PJWvxbneG1i+griJFa7q4MGsPdYNq0Kq+ql0x5r3pSeL4h2fZNxdkzX3Lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.Android\\PMR_Parking.Android.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,6 @@
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\plugin.currentactivity\\2.1.0.2\\plugin.currentactivity.2.1.0.2.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -54,14 +52,19 @@
     "C:\\Users\\carlo\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.arch.lifecycle.runtime\\1.1.1.3\\xamarin.android.arch.lifecycle.runtime.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.animated.vector.drawable\\25.1.0\\xamarin.android.support.animated.vector.drawable.25.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.annotations\\28.0.0.3\\xamarin.android.support.annotations.28.0.0.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.collections\\28.0.0.3\\xamarin.android.support.collections.28.0.0.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.compat\\28.0.0.3\\xamarin.android.support.compat.28.0.0.3.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.core.utils\\25.4.0.2\\xamarin.android.support.core.utils.25.4.0.2.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.core.ui\\25.1.0\\xamarin.android.support.core.ui.25.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.core.utils\\25.1.0\\xamarin.android.support.core.utils.25.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.fragment\\25.1.0\\xamarin.android.support.fragment.25.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.media.compat\\25.1.0\\xamarin.android.support.media.compat.25.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.v7.appcompat\\25.1.0\\xamarin.android.support.v7.appcompat.25.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.vector.drawable\\25.1.0\\xamarin.android.support.vector.drawable.25.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
@@ -110,6 +113,7 @@
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
@@ -123,7 +127,57 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Core.Utils 25.4.0.2 requires Xamarin.Android.Support.Compat (= 25.4.0.2) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.v7.AppCompat 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Vector.Drawable 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Core.UI 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Core.Utils 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Fragment 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Compat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Media.Compat 25.1.0 requires Xamarin.Android.Support.Compat (= 25.1.0) but version Xamarin.Android.Support.Compat 28.0.0.3 was resolved.",
       "libraryId": "Xamarin.Android.Support.Compat",
       "targetGraphs": [
         "MonoAndroid,Version=v11.0"

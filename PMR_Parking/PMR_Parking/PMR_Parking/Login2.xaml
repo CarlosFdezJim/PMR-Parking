@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PMR_Parking.Login2">
+
+    <ContentPage.Content>
+        <StackLayout Margin="20" VerticalOptions="CenterAndExpand" Spacing="20" Orientation="Vertical">
+            <Image Source="icons8_expand_arrow.png" Opacity="0.6" VerticalOptions="Start" Margin="0,0,0,0"/>
+            <Label Text="Registrate aquí" TextColor="#485992" HorizontalTextAlignment="Center" FontSize="Large" />
+            <Entry Placeholder="Nuevo Email" x:Name="UserNewEmail"></Entry>
+            <Entry Placeholder="Nueva Contraseña"  x:Name="UserNewPassword"></Entry>
+            <Button BackgroundColor="#485992" TextColor="White" Text="Signup" Clicked="Button_Register" x:Name="signupbutton"/>
+            
+            <!--<BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
+
+            <Label Text="Si te has acordado de tu cuenta puedes loguearte aquí..."/>
+            <Entry Placeholder="User  Email"  x:Name="UserLoginEmail"></Entry>
+            <Entry Placeholder="User Password"  x:Name="UserLoginPassword"></Entry>
+            <Button BackgroundColor="Black" Clicked="Button_Login" TextColor="White" Text="Login" x:Name="loginbutton"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

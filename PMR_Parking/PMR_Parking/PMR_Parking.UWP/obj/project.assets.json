@@ -364,18 +364,6 @@
           }
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -417,6 +405,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -437,9 +439,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -981,18 +983,6 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -1034,6 +1024,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -1054,9 +1058,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -1599,18 +1603,6 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -1652,6 +1644,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -1672,9 +1678,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -2214,18 +2220,6 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -2267,6 +2261,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -2287,9 +2295,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -2831,18 +2839,6 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -2884,6 +2880,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -2904,9 +2914,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -3449,18 +3459,6 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -3502,6 +3500,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -3522,9 +3534,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -4066,18 +4078,6 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -4119,6 +4119,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -4139,9 +4153,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -4684,18 +4698,6 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
-        },
-        "compile": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
-        }
-      },
       "Xamarin.Auth/1.7.0": {
         "type": "package",
         "compile": {
@@ -4737,6 +4739,20 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.GoogleMaps/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2012": {
         "type": "package",
         "dependencies": {
@@ -4757,9 +4773,9 @@
         "dependencies": {
           "FirebaseAuthentication.net": "3.7.1",
           "Newtonsoft.Json": "13.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Forms.GoogleMaps": "3.3.0",
           "Xamarin.Forms.Maps": "5.0.0.2012"
         },
         "compile": {
@@ -9298,33 +9314,6 @@
         "win2d.uwp.nuspec"
       ]
     },
-    "Xam.Plugin.Geolocator/4.5.0.6": {
-      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
-      "type": "package",
-      "path": "xam.plugin.geolocator/4.5.0.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid71/Plugin.Geolocator.dll",
-        "lib/monoandroid71/Plugin.Geolocator.xml",
-        "lib/netstandard1.0/Plugin.Geolocator.dll",
-        "lib/netstandard1.0/Plugin.Geolocator.xml",
-        "lib/netstandard2.0/Plugin.Geolocator.dll",
-        "lib/netstandard2.0/Plugin.Geolocator.xml",
-        "lib/uap10.0.10240/Plugin.Geolocator.dll",
-        "lib/uap10.0.10240/Plugin.Geolocator.pri",
-        "lib/uap10.0.10240/Plugin.Geolocator.xml",
-        "lib/xamarinios10/Plugin.Geolocator.dll",
-        "lib/xamarinios10/Plugin.Geolocator.xml",
-        "lib/xamarinmac20/Plugin.Geolocator.dll",
-        "lib/xamarinmac20/Plugin.Geolocator.xml",
-        "lib/xamarintvos10/Plugin.Geolocator.dll",
-        "lib/xamarintvos10/Plugin.Geolocator.xml",
-        "readme.txt",
-        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
-        "xam.plugin.geolocator.nuspec"
-      ]
-    },
     "Xamarin.Auth/1.7.0": {
       "sha512": "F5yMDdHmcBRochGOeeyIRJ2fangsCEodSbOwg4TQT5kJnsT/CjP6ieXbFfFF9ccni66EgbQ7NTTjvajUlD3IGQ==",
       "type": "package",
@@ -9616,6 +9605,26 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.GoogleMaps/3.3.0": {
+      "sha512": "C1wutzR7wLgUQuiG1NgArab0X02DGOKWW10+uLBUJE+Cac0+8J/TlLVqdqEl82BDGl3n71zmiLnHd5AZlrFEfw==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
+      ]
+    },
     "Xamarin.Forms.Maps/5.0.0.2012": {
       "sha512": "Zq1mv6sybHzQYWcOYOuLDV1LWQiioGN6kmleau7frhkVLf68FSXd/GIq4uA92TIOYMW9MxmZKOSBW8VVPis5pQ==",
       "type": "package",
@@ -9661,10 +9670,10 @@
       "FirebaseAuthentication.net >= 3.7.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
       "PMR_Parking >= 1.0.0",
-      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.Auth >= 1.7.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
+      "Xamarin.Forms.GoogleMaps >= 3.3.0",
       "Xamarin.Forms.Maps >= 5.0.0.2012"
     ]
   },
@@ -9723,10 +9732,6 @@
             "target": "Package",
             "version": "[6.2.12, )"
           },
-          "Xam.Plugin.Geolocator": {
-            "target": "Package",
-            "version": "[4.5.0.6, )"
-          },
           "Xamarin.Auth": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -9738,6 +9743,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms.GoogleMaps": {
+            "target": "Package",
+            "version": "[3.3.0, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
