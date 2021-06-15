@@ -39,7 +39,7 @@ namespace PMR_Parking
                 Preferences.Set("MyFirebaseRefreshToken", serializedcontnet);
                 try
                 {
-                    await Navigation.PushAsync(new home());
+                    await Navigation.PushAsync(new MainPage());
                 }
                 catch (Exception)
                 {
@@ -53,32 +53,16 @@ namespace PMR_Parking
         }
 
         /**
-         * @brief Método que se encarga de crear una cuenta en la base de datos con el email y la contraseña del cliente nos ha proporcionado,
-         *      en caso de que no exista la creará, sino mostrará un mensaje por pantalla
+         * @brief Método nos redirecciona a la página de registro
          * @param object sender
          * @param EventArgs e
          * @author Carlos Fdez
          */
-        private async void Button_Register(object sender, EventArgs e)
-        {
-            //try
-            //{
-            //    var authProvider = new FirebaseAuthProvider(new FirebaseConfig(WebAPIKey));
-            //    var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(txtEmail.Text, txtPassword.Text);
-            //    string gettoken = auth.FirebaseToken;
-            //    await App.Current.MainPage.DisplayAlert("Alert", "Registro completado", "Ok");
-            //}
-            //catch (Exception ex)
-            //{
-            //    await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-            //}
-        }
-
         private async void btnRegister_Clicked(object sender, EventArgs e)
         {
             try
             {
-                await Navigation.PushAsync(new Logout());
+                await Navigation.PushAsync(new RegisterPage());
             }
             catch (Exception)
             {

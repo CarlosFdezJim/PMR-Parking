@@ -4,9 +4,7 @@
              x:Class="PMR_Parking.Detail">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Detail!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Bienvenido a PMR Parking" TextColor="#485992" TextTransform="Uppercase" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

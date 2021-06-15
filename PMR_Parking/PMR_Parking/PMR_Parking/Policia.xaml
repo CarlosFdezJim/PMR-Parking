@@ -2,16 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PMR_Parking.Policia">
+
+
+    
     <ContentPage.Content>
         <StackLayout>
             <Label Text="¿Hay algún coche aparcado sin tarjeta PMR?"
-                VerticalOptions="FillAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="18"/>
             <Button Text="LLamar Policia" 
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    BackgroundColor="#485992"
+                    TextColor="White"
                     Clicked="LlamarPolicia"/>
             <Label Text="092" IsVisible="False" x:Name="txtNumero"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+

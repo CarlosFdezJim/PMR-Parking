@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
              x:Class="PMR_Parking.Master"
              Title="Master">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Image></Image>
+        <StackLayout Orientation="Vertical" BackgroundColor="White">
+            <Button Text="Perfil" x:Name="btnPerfil" BackgroundColor="White" Image="" Clicked="btnPerfil_Clicked"/>
+            <Button Text="Mi tarjeta PMR" x:Name="btnCardPMR" BackgroundColor="White" Image="icons8_card_security.png" Clicked="btnCardPMR_Clicked" />
+            <Button Text="Aparcamiento" x:Name="btnAparcamiento" BackgroundColor="White" Image="icons8_parking.png" Clicked="btnAparcamiento_Clicked"/>
+            <Button Text="Denunciar" x:Name="btnPolicia" BackgroundColor="White" Image="icons8_police.png" Clicked="btnPolicia_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
+
 </ContentPage>

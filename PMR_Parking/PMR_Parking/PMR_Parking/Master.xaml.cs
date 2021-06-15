@@ -16,5 +16,29 @@ namespace PMR_Parking
         {
             InitializeComponent();
         }
+
+        private async void btnPerfil_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;  //Esconder menú lateral
+            await App.MasterDet.Detail.Navigation.PushAsync(new Page1());
+        }
+
+        private async void btnCardPMR_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;  //Esconder menú lateral
+            await App.MasterDet.Detail.Navigation.PushAsync(new Page2());
+        }
+
+        private async void btnAparcamiento_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;  //Esconder menú lateral
+            await App.MasterDet.Detail.Navigation.PushAsync(new Page2());
+        }
+
+        private async void btnPolicia_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;  //Esconder menú lateral
+            await App.MasterDet.Detail.Navigation.PushAsync(new Policia());
+        }
     }
 }

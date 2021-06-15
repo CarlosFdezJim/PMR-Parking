@@ -1,24 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-       xmlns:local="clr-namespace:PMR_Parking"
        x:Class="PMR_Parking.MainPage">
 
-    <!--Añadimos la cabecera del menú lateral-->
-    <Shell.FlyoutHeader>
-        <local:HeaderContentView/>
-    </Shell.FlyoutHeader>
-
-    <FlyoutItem Title="MytabApp"
-                Shell.TabBarIsVisible="False"
-                FlyoutDisplayOptions="AsMultipleItems">
-            <ShellContent Title="Plazas disponibles" Icon="icons8_parking.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Page1}"/>
-            <ShellContent Title="Tarjeta PMR" Icon="icons8_card_security.png" IsTabStop="True" ContentTemplate="{DataTemplate local:Page2}"/>
-            
-    </FlyoutItem>
-
-    <ShellContent Title="Salir" Icon="icons8_police.png" ContentTemplate="{DataTemplate local:Policia}"/>
-
-</Shell>
+    <!-- Esta clase engloba al Master (Menú de navegación) y Details ( Páginas  de detalles) -->
+    
+</MasterDetailPage>
     
 
