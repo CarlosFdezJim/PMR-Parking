@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.7.1, )"
             },
+            "Plugin.CurrentActivity": {
+              "target": "Package",
+              "version": "[2.1.0.4, )"
+            },
             "Xamarin.Android.Support.Annotations": {
               "target": "Package",
               "version": "[28.0.0.3, )"

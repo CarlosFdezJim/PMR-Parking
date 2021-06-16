@@ -7,7 +7,6 @@
     -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.pmr_parking" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.location" android:required="false" />
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
@@ -16,8 +15,11 @@
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-  <application android:label="PMR Parking" android:theme="@style/MainTheme" android:icon="@drawable/iconpmr" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="PMR Parking" android:theme="@style/MainTheme" android:icon="@drawable/iconpmr" android:debuggable="true" android:name="crc644d984361c36cde37.MainApplication" android:allowBackup="true" android:extractNativeLibs="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmWS2pJwOL0a0-85O4jcsmsjqWIBUoRpA" />
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="PMR Parking" android:theme="@style/MainTheme" android:name="crc6483f00b84f1e0db8f.MainActivity" />
     <activity android:label="PMR Parking" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="crc6483f00b84f1e0db8f.SplashActivity">
       <intent-filter>

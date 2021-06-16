@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="PMR_Parking.PMR_Maps">
+
+
+    <Grid>
+        <maps:Map HasZoomEnabled="True" x:Name="map"/>
+        <StackLayout>
+            <Button Text="Aparcamientos PMR cercanos" BackgroundColor="LightGray" Opacity="50" Clicked="Button_Clicked" TextColor="#645FCE" HorizontalOptions="Center" VerticalOptions="End" Margin="20"/>
+            <Button Text="Actualizar Aparcamientos PMR cercanos" BackgroundColor="LightBlue" Opacity="50" Clicked="Button_Clicked_1" TextColor="#645FCE" HorizontalOptions="Center" VerticalOptions="End" Margin="20"/>
+        </StackLayout>
+    </Grid>
+
+
+</ContentPage>

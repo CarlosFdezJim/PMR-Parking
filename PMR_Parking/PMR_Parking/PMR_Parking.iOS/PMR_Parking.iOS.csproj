@@ -145,4 +145,7 @@
       <Name>PMR_Parking</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CarPins.png" />
+  </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "snl/LyqHY9kWf3EFevWqZLPvhuO2PJWvxbneG1i+griJFa7q4MGsPdYNq0Kq+ql0x5r3pSeL4h2fZNxdkzX3Lw==",
+  "dgSpecHash": "BESSToFKbWEQ8v6+/FY7oqtq7accghS2Sc+X4tEqFqrIqKXkdDCIQWswatEUs+12Oi1SOyRVuwSyOWoGJHciKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.Android\\PMR_Parking.Android.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

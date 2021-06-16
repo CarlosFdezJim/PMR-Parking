@@ -32,7 +32,7 @@ namespace PMR_Parking
         private async void btnAparcamiento_Clicked(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;  //Esconder menú lateral
-            await App.MasterDet.Detail.Navigation.PushAsync(new Page2());
+            await App.MasterDet.Detail.Navigation.PushAsync(new PMR_Maps());
         }
 
         private async void btnPolicia_Clicked(object sender, EventArgs e)

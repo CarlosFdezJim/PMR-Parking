@@ -7,7 +7,6 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.pmr_parking" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.location" android:required="false" />
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
@@ -16,9 +15,12 @@
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/iconpmr" android:label="PMR Parking" android:theme="@style/MainTheme">
+  <application android:name="crc644d984361c36cde37.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/iconpmr" android:label="PMR Parking" android:theme="@style/MainTheme">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDmWS2pJwOL0a0-85O4jcsmsjqWIBUoRpA" />
     <activity android:name="crc6483f00b84f1e0db8f.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="PMR Parking" android:theme="@style/MainTheme" />
     <activity android:name="crc6483f00b84f1e0db8f.SplashActivity" android:label="PMR Parking" android:noHistory="true" android:theme="@style/MyTheme.Splash">
       <intent-filter>

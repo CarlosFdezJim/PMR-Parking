@@ -6,6 +6,7 @@ public class MonoPackageManager_Resources {
 		"Firebase.Auth.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
 		"PMR_Parking.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

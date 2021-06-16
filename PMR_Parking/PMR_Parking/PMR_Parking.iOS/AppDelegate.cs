@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using PMR_Parking.Constants;
 using UIKit;
 
 namespace PMR_Parking.iOS
@@ -23,6 +24,7 @@ namespace PMR_Parking.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsGoogleMaps.Init(AppConstants.GoogleMapsAPIKey);
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

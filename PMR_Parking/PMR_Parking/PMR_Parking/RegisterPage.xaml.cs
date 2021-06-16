@@ -30,7 +30,9 @@ namespace PMR_Parking
                 var auth = await authProvider.CreateUserWithEmailAndPasswordAsync(UserNewEmail.Text, UserNewPassword.Text);
                 string gettoken = auth.FirebaseToken;
                 await Navigation.PushAsync(new MainPage());
-                
+                UserNewEmail.Text = "";
+                UserNewPassword.Text = "";
+
             }
             catch (Exception ex)
             {

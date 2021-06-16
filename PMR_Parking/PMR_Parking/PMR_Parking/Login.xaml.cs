@@ -40,6 +40,8 @@ namespace PMR_Parking
                 try
                 {
                     await Navigation.PushAsync(new MainPage());
+                    txtEmail.Text = "";
+                    txtPassword.Text = "";
                 }
                 catch (Exception)
                 {
@@ -63,6 +65,8 @@ namespace PMR_Parking
             try
             {
                 await Navigation.PushAsync(new RegisterPage());
+                txtEmail.Text = "";
+                txtPassword.Text = "";
             }
             catch (Exception)
             {
