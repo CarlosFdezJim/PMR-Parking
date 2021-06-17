@@ -1,23 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="PMR_Parking.Policia">
 
 
     
-    <ContentPage.Content>
+
         <StackLayout>
             <Label Text="¿Hay algún coche aparcado sin tarjeta PMR?"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" FontSize="18"/>
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" FontSize="18" Padding="20" FontAttributes="Bold" TextColor="#485992"/>
+            
+            <forms:AnimationView 
+                x:Name="animationView"
+                Animation="police.json"
+                AnimationSource="AssetOrBundle"
+                Command="{Binding ClickCommand}"
+                RepeatCount="30000000"
+                RepeatMode="Infinite"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                HeightRequest="300"
+                WidthRequest="300"
+                AutoPlay="True"/>
+            
             <Button Text="LLamar Policia" 
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="EndAndExpand"
+                    HorizontalOptions="StartAndExpand"
+                    Padding="20"
+                    WidthRequest="500"
                     BackgroundColor="#485992"
                     TextColor="White"
                     Clicked="LlamarPolicia"/>
             <Label Text="092" IsVisible="False" x:Name="txtNumero"/>
         </StackLayout>
-    </ContentPage.Content>
+
 </ContentPage>
 

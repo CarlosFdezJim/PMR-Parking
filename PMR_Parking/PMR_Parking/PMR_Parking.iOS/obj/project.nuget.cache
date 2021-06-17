@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ihoVij7DGf7HcM/RqnuJSFpu1uYwH9+OVXPjbDAqS9iniMl8+ohM88LK2Zow6iLLJy3LWDLH5V6XpuONwD78Wg==",
+  "dgSpecHash": "k7Xxtw/9+TVfhQCY6AWh3V6iZeKzwU1zuRFsWQzsEhMpamnjixD6ezjWC4olFlFX5Gy7k0w+Ajdyhd7coDCP1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.iOS\\PMR_Parking.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.13\\com.airbnb.ios.lottie.2.5.13.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.9\\com.airbnb.xamarin.forms.lottie.4.0.9.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\firebaseauthentication.net\\3.7.1\\firebaseauthentication.net.3.7.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",

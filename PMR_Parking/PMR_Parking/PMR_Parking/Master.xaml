@@ -4,12 +4,15 @@
              x:Class="PMR_Parking.Master"
              Title="Master">
 
-    <ContentPage.Content>
+        <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="White">
-            <Button Text="Perfil" x:Name="btnPerfil" BackgroundColor="White" Image="" Clicked="btnPerfil_Clicked"/>
-            <Button Text="Mi tarjeta PMR" x:Name="btnCardPMR" BackgroundColor="White" Image="icons8_card_security.png" Clicked="btnCardPMR_Clicked" />
-            <Button Text="Aparcamiento" x:Name="btnAparcamiento" BackgroundColor="White" Image="icons8_parking.png" Clicked="btnAparcamiento_Clicked"/>
-            <Button Text="Denunciar" x:Name="btnPolicia" BackgroundColor="White" Image="icons8_police.png" Clicked="btnPolicia_Clicked"/>
+            <Button Text="Perfil" x:Name="btnPerfil" BackgroundColor="White" Image="icons8_user.png" Clicked="btnPerfil_Clicked"/>
+            <Button Text="Mi tarjeta PMR" x:Name="btnCardPMR" BackgroundColor="White" Image="icons8_debit_card_32px.png" Clicked="btnCardPMR_Clicked" />
+            <Button Text="Aparcamiento" x:Name="btnAparcamiento" BackgroundColor="White" Image="icons8_place_marker_32px.png" Clicked="btnAparcamiento_Clicked"/>
+            <Button Text="Denunciar" x:Name="btnPolicia" BackgroundColor="White" Image="icons8_police_uniform_32px.png" Clicked="btnPolicia_Clicked"/>
+            <ListView SeparatorVisibility="Default"/>
+            <Button Text="Salir" x:Name="btnExit" BackgroundColor="White" Image="icons8_exit_32px.png" Clicked="btnExit_Clicked"/>
+
         </StackLayout>
     </ContentPage.Content>
 

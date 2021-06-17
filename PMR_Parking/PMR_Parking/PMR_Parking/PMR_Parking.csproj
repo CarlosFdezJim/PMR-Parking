@@ -13,13 +13,17 @@
 
   <ItemGroup>
     <None Remove="MapResources\MapTheme.json" />
+    <None Remove="Places\AparcamientosPMR.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="MapResources\MapTheme.json" />
+    <EmbeddedResource Include="Places\AparcamientosPMR.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="6.0.0" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.9" />
     <PackageReference Include="FirebaseAuthentication.net" Version="3.7.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
@@ -29,6 +33,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="PMRCard.xaml.cs">
+      <DependentUpon>PMRCard.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Perfil.xaml.cs">
+      <DependentUpon>Perfil.xaml</DependentUpon>
+    </Compile>
     <Compile Update="RegisterPage.xaml.cs">
       <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
@@ -59,10 +69,10 @@
     <EmbeddedResource Update="Logout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page1.xaml">
+    <EmbeddedResource Update="Perfil.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
+    <EmbeddedResource Update="PMRCard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Policia.xaml">

@@ -54,6 +54,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>4.0.9</Version>
+    </PackageReference>
     <PackageReference Include="FirebaseAuthentication.net">
       <Version>3.7.1</Version>
     </PackageReference>
@@ -83,6 +86,10 @@
     <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\56-location-pin.json" />
+    <AndroidAsset Include="Assets\police.json" />
+    <AndroidAsset Include="Assets\developer.json" />
+    <AndroidAsset Include="Assets\cardPMR.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -161,7 +168,34 @@
     <AndroidResource Include="Resources\drawable\iconPMR2.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\CircleImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\PickupPin.png" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidAsset Include="Assets\CarPins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lottie\Forms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icons8_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icons8_debit_card_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icons8_police_uniform_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icons8_place_marker_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icons8_exit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\icons8_marker_32px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

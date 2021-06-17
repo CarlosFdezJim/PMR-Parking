@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9nuWTphase6kvSSAl5PI16p1lEG8Sx2E9/PFCqalO7BO+fZxasyavCv/Du4VtWnzSe6dPAI/CrxZGu/JfUiU0Q==",
+  "dgSpecHash": "IglrojDNCZEpsXAzhTk5DBfiKKFOzX5cgqSWT+pK9Mmq6znPUv13CaStamjx1CWkCh6vgtGdhwqYJkz9TbBWtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking.UWP\\PMR_Parking.UWP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.9\\com.airbnb.xamarin.forms.lottie.4.0.9.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\firebaseauthentication.net\\3.7.1\\firebaseauthentication.net.3.7.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

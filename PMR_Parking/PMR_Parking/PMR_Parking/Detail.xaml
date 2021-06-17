@@ -1,10 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="PMR_Parking.Detail">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Bienvenido a PMR Parking" TextColor="#485992" TextTransform="Uppercase" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-        </StackLayout>
-    </ContentPage.Content>
+
+
+    <StackLayout>
+        
+        <Label Text="Bienvenido a PMR Parking" TextColor="#485992" FontSize="28" HorizontalTextAlignment="Center" Padding="30"/>
+        
+        <Label Text="Te ayudaremos a encontrar tu plaza de"  HorizontalOptions="Center" FontSize="Medium"/> 
+        <Label Text="sin nigún tipo de esfuerzo." HorizontalOptions="Center" FontSize="Medium"/>
+            
+        <forms:AnimationView 
+            x:Name="animationView"
+            Animation="56-location-pin.json"
+            AnimationSource="AssetOrBundle"
+            Command="{Binding ClickCommand}"
+            RepeatCount="30000000"
+            RepeatMode="Infinite"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            AutoPlay="True"/>
+    </StackLayout>
+    
 </ContentPage>

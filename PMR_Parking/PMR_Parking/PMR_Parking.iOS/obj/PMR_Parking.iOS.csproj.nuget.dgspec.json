@@ -44,6 +44,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.9, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[3.7.1, )"
@@ -125,6 +129,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.9, )"
+            },
             "FirebaseAuthentication.net": {
               "target": "Package",
               "version": "[3.7.1, )"

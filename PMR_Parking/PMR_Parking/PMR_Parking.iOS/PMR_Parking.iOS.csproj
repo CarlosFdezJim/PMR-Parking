@@ -68,6 +68,10 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\56-location-pin.json" />
+    <BundleResource Include="Resources\police.json" />
+    <BundleResource Include="Resources\developer.json" />
+    <BundleResource Include="Resources\cardPMR.json" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -123,6 +127,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>4.0.9</Version>
+    </PackageReference>
     <PackageReference Include="FirebaseAuthentication.net">
       <Version>3.7.1</Version>
     </PackageReference>
@@ -147,5 +154,14 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\CarPins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\CircleImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PickupPin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icons8_marker_32px.png" />
   </ItemGroup>
 </Project>

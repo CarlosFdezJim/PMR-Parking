@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6Clvuq29aQ+h28PCr0gnLI1yO5eRwzhUEkS0ZrQiWDttBPF92bU3VbUNyDDnN610drIw3hKhPEo5rbQHn9fPvg==",
+  "dgSpecHash": "rRXZeNrQsnsP3FgFXlE26dBT/9aXRo0oYhDdLEimRxfTi2ap9dPAELC4Vve5n0pptQje3OgSMysrgPRuVyP6Aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\PMR_Parking\\PMR_Parking\\PMR_Parking\\PMR_Parking.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.9\\com.airbnb.xamarin.forms.lottie.4.0.9.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\firebaseauthentication.net\\3.7.1\\firebaseauthentication.net.3.7.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

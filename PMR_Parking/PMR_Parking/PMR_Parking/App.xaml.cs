@@ -13,16 +13,7 @@ namespace PMR_Parking
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PMR_Maps());
-
-            //if (!string.IsNullOrEmpty(Preferences.Get("MyFirebaseRefreshToken", "")))
-            //{
-            //    MainPage = new NavigationPage(new Login());
-            //}
-            //else
-            //{
-            //    MainPage = new NavigationPage(new Logout());
-            //}
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart()

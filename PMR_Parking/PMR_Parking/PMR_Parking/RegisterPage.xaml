@@ -4,21 +4,31 @@
              x:Class="PMR_Parking.RegisterPage">
 
     <ContentPage.Content>
-        <StackLayout Margin="20" VerticalOptions="CenterAndExpand" Spacing="20" Orientation="Vertical">
-            <Image Source="icons8_expand_arrow.png" Opacity="0.6" VerticalOptions="Start" Margin="0,0,0,0"/>
-            <Label Text="Registrate aquí" TextColor="#485992" HorizontalTextAlignment="Center" FontSize="Large" />
-            <Entry Placeholder="Email" x:Name="UserNewEmail"></Entry>
-            <Entry Placeholder="Contraseña" IsPassword="True" x:Name="UserNewPassword"></Entry>
-            <Entry Placeholder="Repita Contraseña" IsPassword="True" x:Name="UserNewPassword2"></Entry>
-            <Button BackgroundColor="#485992" TextColor="White" Text="Signup" Clicked="Button_Register" x:Name="signupbutton"/>
-            
-            <!--<BoxView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <StackLayout>
+                <Grid RowSpacing="20" Grid.Row="1" Margin="20,0,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="drawable/iconPMR2.png" HeightRequest="90" VerticalOptions="EndAndExpand"/>
 
-            <Label Text="Si te has acordado de tu cuenta puedes loguearte aquí..."/>
-            <Entry Placeholder="User  Email"  x:Name="UserLoginEmail"></Entry>
-            <Entry Placeholder="User Password"  x:Name="UserLoginPassword"></Entry>
-            <Button BackgroundColor="Black" Clicked="Button_Login" TextColor="White" Text="Login" x:Name="loginbutton"/>-->
-        </StackLayout>
+                    <Entry Grid.Row="1" Placeholder="Email" PlaceholderColor="#bababa" IsPassword="False" FontSize="16" x:Name="UserNewEmail"/>
+                    <Entry Grid.Row="2" Placeholder="Cpmtraseña" PlaceholderColor="#bababa" IsPassword="true" FontSize="16" x:Name="UserNewPassword"/>
+                    <Entry Grid.Row="3" Placeholder="Repita su contraseña" PlaceholderColor="#bababa" IsPassword="true" FontSize="16"/>
+                    <Button Text="Crear cuenta" BackgroundColor="#645FCE" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="3" Clicked="Button_Register" x:Name="btnRegister"/>
+                </Grid>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
-    
 </ContentPage>

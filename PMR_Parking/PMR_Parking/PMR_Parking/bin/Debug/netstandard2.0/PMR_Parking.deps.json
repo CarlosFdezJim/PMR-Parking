@@ -9,6 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "PMR_Parking/1.0.0": {
         "dependencies": {
+          "CarouselView.FormsPlugin": "6.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "4.0.9",
           "FirebaseAuthentication.net": "3.7.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.1",
@@ -19,6 +21,25 @@
         },
         "runtime": {
           "PMR_Parking.dll": {}
+        }
+      },
+      "CarouselView.FormsPlugin/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/4.0.9": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "4.0.9.0",
+            "fileVersion": "4.0.9.0"
+          }
         }
       },
       "FirebaseAuthentication.net/3.7.1": {
@@ -111,6 +132,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CarouselView.FormsPlugin/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
+      "path": "carouselview.formsplugin/6.0.0",
+      "hashPath": "carouselview.formsplugin.6.0.0.nupkg.sha512"
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/4.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aMWf7ej3usaCljPig8Hq2pFzleKOlqL+Dm1Hl0rCc32CMFapnunOC/970AUkx2YaplN+IQcXdsD9y0ngQW+w3A==",
+      "path": "com.airbnb.xamarin.forms.lottie/4.0.9",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.4.0.9.nupkg.sha512"
     },
     "FirebaseAuthentication.net/3.7.1": {
       "type": "package",

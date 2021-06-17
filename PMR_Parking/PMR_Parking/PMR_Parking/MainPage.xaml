@@ -2,7 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
        x:Class="PMR_Parking.MainPage">
-
+    
     <!-- Esta clase engloba al Master (Menú de navegación) y Details ( Páginas  de detalles) -->
     
 </MasterDetailPage>

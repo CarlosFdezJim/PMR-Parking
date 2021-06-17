@@ -47,7 +47,7 @@ namespace PMR_Parking
         private void Logout_Clicked(object sender, EventArgs e)
         {
             Preferences.Remove("MyFirebaseRefreshToken");
-            App.Current.MainPage = new NavigationPage(new RegisterPage());
+            App.Current.MainPage = new NavigationPage(new Login());
         }
     }
 }

@@ -5,8 +5,9 @@
     
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" Orientation="Vertical">
-            <Label Text="¿Está seguro que desa salir?" x:Name="MyUserName" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-            <Button x:Name="Exit" Text="Logout" BackgroundColor="Black" TextColor="White" Clicked="Logout_Clicked"/>
+            <Label Text="¿Está seguro que desa salir?" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="#485992" FontSize="36"/>
+            <Label Text="¿Está seguro que desa salir?" x:Name="MyUserName" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="#485992" FontSize="36"/>
+            <Button x:Name="Exit" Text="Logout" BackgroundColor="#485992" TextColor="White" Clicked="Logout_Clicked" VerticalOptions="End" HorizontalOptions="CenterAndExpand" HeightRequest="50" WidthRequest="500"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

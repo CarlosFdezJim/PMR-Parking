@@ -6,12 +6,24 @@
 
 
     <Grid>
-        <maps:Map HasZoomEnabled="True" x:Name="map"/>
-        <StackLayout>
-            <Button Text="Aparcamientos PMR cercanos" BackgroundColor="LightGray" Opacity="50" Clicked="Button_Clicked" TextColor="#645FCE" HorizontalOptions="Center" VerticalOptions="End" Margin="20"/>
-            <Button Text="Actualizar Aparcamientos PMR cercanos" BackgroundColor="LightBlue" Opacity="50" Clicked="Button_Clicked_1" TextColor="#645FCE" HorizontalOptions="Center" VerticalOptions="End" Margin="20"/>
-        </StackLayout>
-    </Grid>
+        
+        <maps:Map PinDragStart="map_PinDragStart" PinDragEnd="map_PinDragEnd" HasZoomEnabled="True" x:Name="map"/>
+        <SearchBar HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="White" Opacity="0.9"
+        Placeholder="Buscar"
+        PlaceholderColor="#485992"
+        CancelButtonColor="#485992"
+        SearchButtonPressed="SearchBar_SearchButtonPressed"/>
+        <!--<StackLayout VerticalOptions="EndAndExpand">
+            <Button Text="Mi Localización" x:Name="PickupButton" BackgroundColor="Black" TextColor="White" Padding="10" Clicked="PickupButton_Clicked" VerticalOptions="EndAndExpand"/>
+            <Button Text="Aparcamientos PMR cercanos" BackgroundColor="Black" TextColor="White" Padding="10" Clicked="Button_Clicked" VerticalOptions="EndAndExpand"/>
+            <Button Text="Actualizar Aparcamientos PMR cercanos" BackgroundColor="Black" TextColor="White" Padding="10" Clicked="Button_Clicked_1" VerticalOptions="EndAndExpand"/>
+        </StackLayout>-->
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Text="Mi ubicación" BorderColor="#2b3c3c" BorderWidth="1" FontAttributes="Bold"  BackgroundColor="#485992" BorderRadius="90" TextColor="White" HorizontalOptions="Start" WidthRequest="160" HeightRequest="70" Margin="0,0,20,22" VerticalOptions="End" Clicked="Button_Clicked" />
+    </Grid>
 
 </ContentPage>

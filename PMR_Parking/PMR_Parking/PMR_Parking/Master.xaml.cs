@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,13 +19,13 @@ namespace PMR_Parking
         private async void btnPerfil_Clicked(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;  //Esconder menú lateral
-            await App.MasterDet.Detail.Navigation.PushAsync(new Page1());
+            await App.MasterDet.Detail.Navigation.PushAsync(new Perfil());
         }
 
         private async void btnCardPMR_Clicked(object sender, EventArgs e)
         {
             App.MasterDet.IsPresented = false;  //Esconder menú lateral
-            await App.MasterDet.Detail.Navigation.PushAsync(new Page2());
+            await App.MasterDet.Detail.Navigation.PushAsync(new PMRCard());
         }
 
         private async void btnAparcamiento_Clicked(object sender, EventArgs e)
@@ -39,6 +38,12 @@ namespace PMR_Parking
         {
             App.MasterDet.IsPresented = false;  //Esconder menú lateral
             await App.MasterDet.Detail.Navigation.PushAsync(new Policia());
+        }
+
+        private async void btnExit_Clicked(object sender, EventArgs e)
+        {
+            App.MasterDet.IsPresented = false;  //Esconder menú lateral
+            await App.MasterDet.Detail.Navigation.PushAsync(new Logout());
         }
     }
 }
